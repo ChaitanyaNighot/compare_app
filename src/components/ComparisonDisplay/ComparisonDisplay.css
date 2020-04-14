@@ -1,0 +1,61 @@
+.table {
+  background-color: #fff;
+  border-radius: 7px;
+  overflow: hidden; /*will hide text going ooutside of the box */
+  box-shadow: 5px 15px 25px -10px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eee;
+  font-size: 18px;
+  table-layout: fixed; /* making it fixed so as the column acquires available space, do not shrink */
+}
+
+.bg-red {
+  background-color: #ff715b;
+}
+
+.bg-green {
+  background-color: #48cfad;
+}
+
+td,
+th {
+  padding-bottom: 25px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+th[scope="row"] {
+  font-size: 20px;
+  color: #393c45;
+  text-align: left;
+  font-weight: normal;
+  background-color: #f9f9f9;
+  padding-left: 40px;
+  border: 2x solid #eee;
+}
+
+.condition {
+  color: #fff;
+  font-size: 20px;
+}
+
+span {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  margin-right: 5px;
+  border-radius: 100%;
+}
+
+.bg-blue {
+  background-color: #0197f6;
+}
+
+th {
+  font-size: 20px;
+  color: #393c45;
+  font-weight: normal;
+}
+
+th {
+  background-color: #fff;
+}

@@ -1,0 +1,22 @@
+.detailContainer {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 25px 15px;
+}
+
+.product_price {
+  float: right;
+  color: #48cfad;
+  padding-right: 40px;
+}
+
+.product_name {
+  font-size: 22px;
+  float: left;
+  color: #393c45;
+}
+
+.product_desccription {
+  font-size: 16px;
+  color: #b1b1b3;
+}
